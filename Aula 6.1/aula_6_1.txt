@@ -1,0 +1,74 @@
+Resumo da aula 6.1:
+- Strings;
+- Manipulando strings;
+
+String: Vetores de char;
+
+Em linguagem C: 
+  - Dados de texto são algo pouco abstrato;
+  - É preciso entender como os dados estão dispostos em memória;
+  - Operações sobre caracteres individuais;
+
+char hello[6] = {'h', 'e', 'l', 'l', 'o', '\0'};
+
+Índice:   0    1    2    3    4    5
+        +----+----+----+----+----+-----+
+Valor:  | 'h'| 'e'| 'l'| 'l'| 'o'| '\0'|
+        +----+----+----+----+----+-----+
+
+┌────────┬────────┬────────┬────────┬──────────┐
+│ Código │  Char  │  Dec   │  Hex   │  Bin     │
+├────────┼────────┼────────┼────────┼──────────┤
+│   104  │   h    │   104  │   68   │ 01101000 │
+│   101  │   e    │   101  │   65   │ 01100101 │
+│   108  │   l    │   108  │   6C   │ 01101100 │
+│   108  │   l    │   108  │   6C   │ 01101100 │
+│   111  │   o    │   111  │   6F   │ 01101111 │
+└────────┴────────┴────────┴────────┴──────────┘
+
+Strings: entrada e saída:
+
+scanf():
+  - Limitações: sintaxe rebuscada;
+  - Especificador de formato: %s;
+  - Sintaxe geral:
+    - scanf("%s", <str>);
+  - Sintaxe aprimorada:
+    - scanf("%<tam. - 1>[^\n]s", <str>);
+  - Não há necessidade do "&";
+
+printf():
+  - Especificador de formato: %s;
+  - Sintaxe:
+    - printf("<texto>", <str1>, <str2>, ..., <strN>);
+
+gets(): 
+  - Limitações: estouro do limite do vetor;
+  - Sintaxe:
+    - gets(<str>);
+
+fgets():
+  - Último caractere sempre fica reservado ao '\0';
+  - Entrada padrão: stdin;
+  - Sintaxe:
+    - fgets(<string>, <tam>, stdin);
+
+puts():
+  - Imprime uma string diretamente na tela;
+  - Não adimite variáveis de outros tipos;
+  - Sintaxe:
+    - puts(<str>);
+
+fflush(stdin): chamar sempre depois de uma entrada;
+
+Bibliotecas para trabalhar com strings:
+
+Biblioteca: string.h
+- Sintaxe de funções importantes:
+  - strcpy(<destino>, <origem>); // Utilizado para alterar o valor de uma string. Obs: não se altera uma string com o operador de atribuição (=)!
+  - strcat(<destino>, <origem>); // Concatena duas strings;
+  - strlen(<string>); // Exibe o tamanho da string;
+  - strcmp(<string_1>, <string_2>); // Faz comparações entre duas strings de nível estrito (retorna 0 caso seja true);
+
+Biblioteca: locale.h // Formatação
+- setlocale(LC_ALL, "Portuguese");

@@ -1,0 +1,15 @@
+Laço condicional:
+
+Comandos do-while:
+- Similar ao while:
+  - Inicialização, condição, atualização;
+- Diferença crucial:
+  - Condição avaliada somente ao final;
+  - Bloco de comandos é executado, obrigatoriamente,
+  ao menos 1 vez.
+
+Sintaxe:
+
+do {
+    <bloco_de_comandos>
+} while (<condição>);

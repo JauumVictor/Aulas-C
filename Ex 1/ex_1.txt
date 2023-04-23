@@ -1,0 +1,2 @@
+1. (Adaptado de ASCENSIO e CAMPOS, 2008) Faça um programa que receba quatro números inteiros, 
+calcule e mostre a soma desses números.

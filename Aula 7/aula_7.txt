@@ -1,0 +1,19 @@
+Resumo da aula 7:
+- Matrizes:
+  - Em memória;
+  - Manipulação;
+
+Matrizes
+- Matrizes podem ter várias dimensões;
+- Dois ou mais índices para acesso a posições;
+- Sintaxe:
+  - <tipo> <nome>[<dim1>][<dim2>]...[<dimN>];
+
+Nota: 
+- Matriz é no mínimo bidimensional;
+
+Manipulando uma matriz
+- Sintaxe de acesso a posição:
+  - <nome>[<i1>][<i2>]...[<iN>];
+- Sintaxe de inicialização:
+  - <declaração> = {{<l1>}, {<l2>}, ..., {<lN>}};

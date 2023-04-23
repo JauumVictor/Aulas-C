@@ -1,0 +1,22 @@
+Resumo da aula 9.1:
+- Detalhando a função main();
+- Entendendo arquivos-fonte:
+  - Arquivos .h e .c;
+  - Projetos de programa em C;
+
+Indo além com a função main()
+- main(): seu programa é apenas uma função!
+  - Parâmetros de um programa:
+    - int argc
+    - char *argv[]
+  - Sintaxe correta do main():
+    - int main(int argc, char *argv[]) {...}
+
+Seu projeto ganhando corpo
+- Integrar arquivos-fonte distintos: #include:
+  - Arquivos .h:
+    - Variáveis globais;
+    - Protótipos de funções;
+    - Definições de novos tipos;
+  - Arquivos .c:
+    - Implementação da lógica;

@@ -1,0 +1,19 @@
+Resumo da aula: 
+
+Operadores aritméticos:
+- Soma: +
+- Subtração: -
+- Multiplicação: *
+- Divisão: /;
+
+Existe precedência entre operadores (igual na matemática), por exemplo, 
+a multiplicação tem precedência sobre a soma e subtração!
+
+Atribuição aritméticas:
+Operadores de atribuição aritméticas:
+- Incremento em 1 unidade: ++
+- Decremento em 1 unidade: --
+- Incremento genérico: +=
+- Decremento genérico: -=
+- Atribuição com multiplicação: *=
+- Atribuição com divisão: /=

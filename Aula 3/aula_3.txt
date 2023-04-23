@@ -1,0 +1,26 @@
+Resumo da aula 3:
+
+- Variáveis;
+- Regras de nomeclatura das variáveis;
+- Tipos de dados (int, float, double e char);
+- Atribuição;
+- Constantes;
+
++---------------+------+-----------------------------+
+| Tipo de Dado  | Bits | Faixa de Representação      |
++---------------+------+-----------------------------+
+| char          | 8    | -128 a 127                  |
+| unsigned char | 8    | 0 a 255                     |
+| short int     | 16   | -32.768 a 32.767            |
+| unsigned short| 16   | 0 a 65.535                  |
+| int           | 16/32| -32.768 a 32.767 ou         |
+|               |      | -2.147.483.648 a            |
+|               |      | 2.147.483.647               |
+| unsigned int  | 16/32| 0 a 65.535 ou               |
+|               |      | 0 a 4.294.967.295           |
+| long int      | 32   | -2.147.483.648 a            |
+|               |      | 2.147.483.647               |
+| unsigned long | 32   | 0 a 4.294.967.295           |
+| float         | 32   | 1.2 x 10^-38 a 3.4 x 10^38  |
+| double        | 64   | 2.2 x 10^-308 a 1.8 x 10^308|
++---------------+------+-----------------------------+

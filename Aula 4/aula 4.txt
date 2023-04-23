@@ -1,0 +1,26 @@
+Resumo da aula 4:
+
+Estrutura de decisão simples:
+
+Comando if: Se a condição é verdadeira, o bloco é executado, senão, é ignorado.
+
+Sintaxe: 
+
+if (<condição>) {
+    <bloco_de_comandos>
+}
+
+Como criar condições lógico-relacionais:
+
+Operadores relacionais:
+- Maior: >
+- Maior ou igual: >=
+- Menor: <
+- Menor ou igual: <=
+- Igual: ==
+- Diferente: !=
+
+Operadores lógicos:
+- Conjunção: ("e" lógico): && (É verdadeiro quando toda expressão for verdadeira);
+- Disjunção: ("ou" lógico): || (É verdadeiro se ao menos uma expressão for verdadeira);
+- Inversão: (negação - "não lógico"): ! (É verdadeiro quando a expressão é falsa);

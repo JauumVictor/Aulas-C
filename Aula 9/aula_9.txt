@@ -1,0 +1,36 @@
+Resumo da aula 9:
+- Modularização;
+- Fundamentos conceituais;
+- Diversidade de parâmetros;
+
+Funções e modularização de código:
+- Funções: Resolver problemas complexos através da combinação de soluções
+menores
+- Sintaxe:
+  - <tipo> <nome_da_função>(<parâmetros>) {
+    <bloco_de_comandos>
+    return <informação>;
+  }
+
+Detalhes de uma função:
+- Identificador (nome da função): mesma regra de criação de variáveis;
+- Tipo de retorno:
+  - Retorno não é obrigatório em C;
+- Parâmetros de entrada:
+  - Nenhum, um ou vários;
+
+Parâmetros de função distintos:
+- Sintaxe para parâmetros struct:
+  - <tipo> <função>(<tipo_struct> <param>) {...}
+- Sintaxe para vetores/matrizes como parâmetro:
+  - <tipo> <função>(<tipo> <vet>[], int tam) {...}
+  - <tipo> <função>(<tipo> <vet>[<tam>]) {...}
+  - <tipo> <função>(<tipo> *<vet>, int tam) {...}
+  - <tipo> <função>(<tipo> m[][<tam2>]>, int tam1) {...}
+
+Mais detalhes sobre funções:
+- Escopo de variáveis: local x global;
+- Declaração de uma função em C:
+  - Deve aparecer antes do main();
+  - Sintaxe de um protótipo de função:
+    - <tipo> <nome_da_função>(<parâmetros>);

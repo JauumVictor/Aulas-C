@@ -1,0 +1,8 @@
+Resumo da aula 1:
+
+- História da linguagem C;
+- Características da linguagem C;
+- IDE (Integrated Development Environment ou ambiente de desenvolvimento integrado): Dev C++;
+- Bibliotecas;
+- main();
+- printf("Hello, World!");

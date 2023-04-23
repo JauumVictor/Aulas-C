@@ -1,0 +1,19 @@
+Laço condicional:
+
+Comando while:
+- Inicialização de uma ou mais variáveis de controle;
+- Definição de uma condição de parada:
+  - Enquanto for verdadeira: repete;
+- Atualização da(s) variável(eis) de controle;
+- Cuidado: loop infinito;
+
+Volte e reveja:
+- Inicialização;
+- Expressão lógico-relacional;
+- Atualização da variável;
+
+Sintaxe: 
+
+while(<condição>) {
+    <bloco_de_comandos>
+}

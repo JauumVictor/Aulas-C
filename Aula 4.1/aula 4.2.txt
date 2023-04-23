@@ -1,0 +1,23 @@
+Estruturas de decisão compostas:
+
+Comandos if-else:
+- Se a condição for verdadeira:
+  - Bloco do if é executado;
+  - Bloco do else é ignorado;
+
+- Se a condição for falsa:
+  - Bloco do if é ignorado;
+  - Bloco do else é executado;
+
+Sintaxe: 
+
+if (<condição>) {
+    <bloco_de_comandos>
+}
+else {
+    <bloco_de_comandos_2>
+}
+
+Notas: 
+- Não existe um else sem if;
+- else vem depois do if;

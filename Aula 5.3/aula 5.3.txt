@@ -1,0 +1,8 @@
+Comandos de controle de desvio:
+
+Comandos break:
+- Utilizado para encerrar por completo uma
+sequência de repetições;
+
+Comando continue:
+- Utilizado para encerrar a iteração atual;

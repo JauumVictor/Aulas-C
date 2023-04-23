@@ -1,0 +1,30 @@
+Resumo da aula 8:
+- Structs
+  - Definindo um novo tipo:
+    - typedef
+  - Declarando variáveis do novo tipo;
+  - Acessando membros de uma variável struct;
+
+Tipos de dados compostos:
+- Structs (registros):
+  - Sintaxe:
+    - struct <novo_tipo> {
+        <tipo1> <campo1>;
+        <tipo2> <campo2>;
+        ...
+        <tipoN> <campoN>;
+    };
+
+Declarando variáveis do novo tipo:
+- Comando typedef: renomeia um identificador;
+  - Sintaxe:
+    - typedef <tipo> <novo_nome>;
+  - Sintaxes de declaração de variável struct:
+    - struct <novo_tipo> <nome_variável>;
+    <novo_nome> <nome_variável>;
+
+Acessando os membros de uma struct:
+- Antes de mais nada, é preciso haver uma variável desse tipo declarada.
+  - Sintaxe:
+    - <variável>.<campo>
+- Fato: é comum misturar vetores e structs;

@@ -1,0 +1,4 @@
+Resumo da aula 2:
+
+- Estrutura sequencial;
+- Debugando o código;

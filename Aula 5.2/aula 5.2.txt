@@ -1,0 +1,18 @@
+Laço condicional:
+
+Comando for:
+- Similar ao while:
+  - Inicialização, condição, atualização;
+- Diferença crucial:
+  - Sintaxe mais complexa;
+  - Tudo fica embutido no comando;
+
+Notas:
+- Muitas vezes os erros não são sintáticos;
+- Debugue se precisar;
+
+Sintaxe:
+
+for(<ini.>; <cond.>; <increm./decrem.>) {
+    <bloco_de_comandos>
+}

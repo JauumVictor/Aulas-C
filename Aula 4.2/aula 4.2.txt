@@ -1,0 +1,28 @@
+Estruturas de decisão múltiplas:
+
+Comandos switch-case:
+- É como se fossem vários if em sequência;
+- Útil para comparar uma única variável:
+  - Somente comparações de igualdade;
+- Caso seja igual a 1 dos valores:
+  - Executa o respectivo bloco;
+  - Ignora todos os outros blocos;
+
+Estruturas de decisão compostas:
+
+Sintaxe:
+
+switch(<var>) {
+    case <v1>: 
+       <bloco_de_comandos_1>
+       break;
+    case <v2>:
+       <bloco_de_comandos_2>
+       break;
+    case <v3>:
+       <bloco_decomandos_N>
+       break;
+    default:
+       <bloco_de_comandos_padrão>
+       break;
+}

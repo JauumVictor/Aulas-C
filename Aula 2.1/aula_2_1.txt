@@ -1,0 +1,29 @@
+Resumo aula 2.1:
+
+- Operações de entrada e saída de dados;
+- Entrada de dados com printf();
+- Especificadores de formato;
+- Sequências de escape;
+
++--------------------+------------------------------------------------------+
+|                  Especificador de formato: printf()                       |
++--------------------+------------------------------------------------------+
+| Especificador      | Descrição                                            |
++--------------------+------------------------------------------------------+
+| %c                 | Caractere                                            |
+| %s                 | String                                               |
+| %d                 | Inteiro decimal                                      |
+| %i                 | Inteiro decimal, octal (precedido por 0) ou          |
+|                    | hexadecimal (precedido por 0x ou 0X)                 |
+| %u                 | Inteiro sem sinal                                    |
+| %o                 | Inteiro em octal                                     |
+| %x ou %X           | Inteiro em hexadecimal (x ou X define o uso de letras|
+|                    | minúsculas ou maiúsculas)                            |
+| %f                 | Ponto flutuante                                      |
+| %e ou %E           | Ponto flutuante na notação científica (e ou E indica |
+|                    | a potência de 10)                                    |
+| %g ou %G           | Ponto flutuante em notação decimal ou científica,    |
+|                    | dependendo da magnitude do valor                     |
+| %p                 | Endereço de ponteiro                                 |
+| %%                 | Símbolo de porcentagem (%) literal                   |
++--------------------+------------------------------------------------------+

@@ -1,0 +1,38 @@
+Resumo da aula 6:
+
+- Vetores:
+  - Memória do computador;
+  - Manipulando vetores;
+  - Entrada e saída com vetores;
+
+Estrutura de dados unidimensionais:
+- Estrutura de dados unidimensionais;
+- Índice único controla as posições;
+- Sintaxe de declaração:
+  - <tipo> <nome>[<tamanho>];
+
+Vetores em memória:
+- A memória do computador é organizada da seguinte forma:
+   - A memória do computador é organizada em endereços, 
+   que correspondem a locais específicos na memória. 
+   Cada endereço de memória é capaz de armazenar um byte de informação (8 bits), 
+   que pode representar um valor numérico, um caractere, uma instrução de máquina, 
+   entre outros.
+
+Manipulando vetores:
+- Acesso a uma posição:
+  - Não é possível acessar um vetor todo.
+  - Sintaxe:
+    - <nome>[<índice>]
+- Lista de inicialização: preenche um vetor todo, de uma vez só:
+  - <tipo> <nome>[<tam.>] = {<v1>, <v2>, ..., <vN>};
+
+Exemplo:
+
+int vetor[5] = {10, 20, 30, 40, 50};
+
+Endereço:   1000    1001    1002    1003    1004
+Valor:      10      20      30      40      50
+
+Extrapolando o tamanho do vetor:
+- Cuidado, pois a linguagem C é "permissiva" com relação aos índices de um vetor.

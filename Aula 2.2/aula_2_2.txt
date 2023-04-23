@@ -1,0 +1,28 @@
+Resumo aula 2.2:
+
+- Operações de entrada e saída de dados;
+- Saída de dados com: scanf();
+- Especificadores de formato do scanf();
+
++--------------------+------------------------------------------------------+
+|                  Especificador de formato: scanf()                        |
++--------------------+------------------------------------------------------+
+| Especificador      | Descrição                                            |
++--------------------+------------------------------------------------------+
+| %d                 | Inteiro decimal                                      |
+| %i                 | Inteiro decimal, octal (precedido por 0) ou          |
+|                    | hexadecimal (precedido por 0x ou 0X)                 |
+| %u                 | Inteiro sem sinal                                    |
+| %f                 | Ponto flutuante                                      |
+| %e ou %E           | Ponto flutuante na notação científica (e ou E indica |
+|                    | a potência de 10)                                    |
+| %g ou %G           | Ponto flutuante em notação decimal ou científica,    |
+|                    | dependendo da magnitude do valor                     |
+| %c                 | Caractere                                            |
+| %s                 | String                                               |
+| %p                 | Endereço de ponteiro                                 |
+| %n                 | Número de caracteres lidos e armazenados até o ponto |
+|                    | atual na string de entrada                           |
+|[^chars]            | Lê todos os dados digitados, exceto os especificados |
+|                    | em "chars"                                           |
++--------------------+------------------------------------------------------+
